@@ -1,0 +1,12 @@
+:root{
+    --secondy-color: blue;
+}
+h1 {
+    background-color: var(--main-color, var(--secondy-color));
+}
+body{
+    background: linear-gradient(blue,red);
+}
+html{
+    scroll-behavior: smooth;
+}
